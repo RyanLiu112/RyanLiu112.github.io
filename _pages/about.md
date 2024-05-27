@@ -5,7 +5,7 @@ permalink: /
 subtitle: Master Student, Tsinghua University.
 
 profile:
-  align: left
+  align: right
   image: avatar.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
