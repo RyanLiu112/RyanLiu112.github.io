@@ -88,9 +88,9 @@
         {% endif %}
         {%- if author_is_self -%}
           {%- if equal_contribution -%}
-            <em><strong>{{- author.first }} {{ author.last -}}</strong></em><sup>*</sup>
+            <em><strong>{{- author.first }} {{ author.last | remove: '*' -}}</strong></em><sup>*</sup>
           {%- elsif corresponding_author -%}
-            <em><strong>{{- author.first }} {{ author.last -}}</strong></em><sup>†</sup>
+            <em><strong>{{- author.first }} {{ author.last | remove: '†' -}}</strong></em><sup>†</sup>
           {%- else -%}
             <em><strong>{{- author.first }} {{ author.last -}}</strong></em>
           {%- endif -%}
@@ -98,18 +98,18 @@
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
               {%- if equal_contribution -%}
-                {{- author.first }} {{ author.last -}}<sup>*</sup>
+                {{- author.first }} {{ author.last | remove: '*' -}}<sup>*</sup>
               {%- elsif corresponding_author -%}
-                {{- author.first }} {{ author.last -}}<sup>†</sup>
+                {{- author.first }} {{ author.last | remove: '†' -}}<sup>†</sup>
               {%- else -%}
                 {{- author.first }} {{ author.last -}}
               {%- endif -%}
             </a>
           {%- else -%}
             {%- if equal_contribution -%}
-              {{- author.first }} {{ author.last -}}<sup>*</sup>
+              {{- author.first }} {{ author.last | remove: '*' -}}<sup>*</sup>
             {%- elsif corresponding_author -%}
-              {{- author.first }} {{ author.last -}}<sup>†</sup>
+              {{- author.first }} {{ author.last | remove: '†' -}}<sup>†</sup>
             {%- else -%}
               {{- author.first }} {{ author.last -}}
             {%- endif -%}
