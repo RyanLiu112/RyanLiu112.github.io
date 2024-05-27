@@ -69,16 +69,16 @@
   type: nested_list
   contents: 
     - title: Programming and Tools
-    items:
-      - Python
-      - PyTorch
-      - HTML/CSS
-      - JavaScript
-      - LaTeX
+      items:
+        - Python
+        - PyTorch
+        - HTML/CSS
+        - JavaScript
+        - LaTeX
     - title: English
-    items:
-      - CET-6<span>:</span> 545
-      - CET-4<span>:</span> 591
+      items:
+        - CET-6<span>:</span> 545
+        - CET-4<span>:</span> 591
 
 - title: Academic Interests
   type: nested_list
