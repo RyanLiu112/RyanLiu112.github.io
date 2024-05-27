@@ -93,7 +93,7 @@
             <em><strong>{{- author.first }} {{ author.last -}}</strong></em><sup>†</sup>
           {%- else -%}
             <em><strong>{{- author.first }} {{ author.last -}}</strong></em>
-          {% endif %}
+          {%- endif -%}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
@@ -103,7 +103,7 @@
                 {{- author.first }} {{ author.last -}}<sup>†</sup>
               {%- else -%}
                 {{- author.first }} {{ author.last -}}
-              {% endif %}
+              {%- endif -%}
             </a>
           {%- else -%}
             {%- if equal_contribution -%}
@@ -112,7 +112,7 @@
               {{- author.first }} {{ author.last -}}<sup>†</sup>
             {%- else -%}
               {{- author.first }} {{ author.last -}}
-            {% endif %}
+            {%- endif -%}
           {% endif %}
         {%- endif -%}
       {% endfor %}
