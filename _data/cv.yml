@@ -3,12 +3,12 @@
   contents:
     - title: M.Eng. in Electronic Information (Artificial Intelligence)
       institution: Tsinghua University
-      year: 2023 - 2026
+      year: 2023/09 - 2026/06
       description:
         - GPA<span>:</span> 3.90/4.00
     - title: B.S. in Statistics with <strong style="color:red;">Honours</strong>
       institution: Shandong University
-      year: 2019 - 2023
+      year: 2019/09 - 2023/06
       description:
         - GPA<span>:</span> 92.10/100
         - Ranked 1/24 in Data Science & AI Innovation Class
@@ -66,8 +66,19 @@
         - Second Prize of Academic Scholarship, Shandong University
 
 - title: Skills
-  type: list
-  contents: ["Python", "PyTorch", "HTML/CSS", "JavaScript", "LaTeX"]
+  type: nested_list
+  contents: 
+    - title: Programming and Tools
+    items:
+      - Python
+      - PyTorch
+      - HTML/CSS
+      - JavaScript
+      - LaTeX
+    - title: English
+    items:
+      - CET-6<span>:</span> 545
+      - CET-4<span>:</span> 591
 
 - title: Academic Interests
   type: nested_list
