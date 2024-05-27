@@ -1,26 +1,38 @@
+"bai":
+  - firstname: ["Chenjia", "C."]
+    url: https://baichenjia.github.io/
+
+  - firstname: ["Fengshuo", "F."]
+    url: https://changwinde.github.io/
+
 "du":
   - firstname: ["Yali", "Y."]
     url: https://yalidu.github.io/
-
-"yang": 
-  - firstname: ["Yaodong", "Y."]
-    url: https://www.yangyaodong.com/
-
-"bai":
-  - firstname: ["Fengshuo", "F."]
-    url: https://scholar.google.com/citations?user=rzt0quQAAAAJ
-
-  - firstname: ["Chenjia", "C."]
-    url: https://baichenjia.github.io/
 
 "li":
   - firstname: ["Xiu", "X."]
     url: https://www.sigs.tsinghua.edu.cn/lx/main.htm
 
+"lu":
+  - firstname: ["Zongqing", "Z."]
+    url: https://z0ngqing.github.io/
+
 "lyu":
   - firstname: ["Jiafei", "J."]
     url: https://dmksjfl.github.io/
 
+"ma":
+  - firstname: ["Xiaoteng", "X."]
+    url: https://xtma.github.io/
+
 "sun":
   - firstname: ["Shengjie", "S."]
     url: https://github.com/ShengjieSun419
+
+"wan":
+  - firstname: ["Le", "L."]
+    # url: 
+
+"yang": 
+  - firstname: ["Yaodong", "Y."]
+    url: https://www.yangyaodong.com/
