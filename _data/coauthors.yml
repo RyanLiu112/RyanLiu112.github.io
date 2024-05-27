@@ -11,7 +11,7 @@
 
 "li":
   - firstname: ["Xiu", "X."]
-    url: https://www.sigs.tsinghua.edu.cn/lx/main.htm/
+    url: https://www.sigs.tsinghua.edu.cn/lx/main.htm
 
 "lu":
   - firstname: ["Zongqing", "Z."]
@@ -27,7 +27,7 @@
 
 "sun":
   - firstname: ["Shengjie", "S."]
-    url: https://github.com/ShengjieSun419/
+    url: https://github.com/ShengjieSun419
 
 "yang": 
   - firstname: ["Yaodong", "Y."]
