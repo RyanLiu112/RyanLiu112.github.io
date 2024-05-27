@@ -1,34 +1,26 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"du":
+  - firstname: ["Yali", "Y."]
+    url: https://yalidu.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"yang": 
+  - firstname: ["Yaodong", "Y."]
+    url: https://www.yangyaodong.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"bai":
+  - firstname: ["Fengshuo", "F."]
+    url: https://scholar.google.com/citations?user=rzt0quQAAAAJ
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+  - firstname: ["Chenjia", "C."]
+    url: https://baichenjia.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"li":
+  - firstname: ["Xiu", "X."]
+    url: https://www.sigs.tsinghua.edu.cn/lx/main.htm
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"lyu":
+  - firstname: ["Jiafei", "J."]
+    url: https://dmksjfl.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"sun":
+  - firstname: ["Shengjie", "S."]
+    url: https://github.com/ShengjieSun419

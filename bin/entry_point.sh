@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_FILE=_config.yml 
+CONFIG_FILE=_config_lrz.yml 
 
 /bin/bash -c "rm -f Gemfile.lock && exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling"&
 
