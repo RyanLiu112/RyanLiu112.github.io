@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper *Meta-Reward-Net: Implicitly Differentiable Reward Learning for Preference-based Reinforcement Learning* is accepted by [NeurIPS 2022](https://neurips.cc/Conferences/2022).
+Our paper *Meta-Reward-Net: Implicitly Differentiable Reward Learning for Preference-based Reinforcement Learning* is accepted by <a href="https://neurips.cc/Conferences/2022">NeurIPS 2022</a>.
