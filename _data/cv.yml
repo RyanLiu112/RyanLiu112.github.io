@@ -17,20 +17,20 @@
   type: time_table
   contents:
     - title: Engineering Intern
-      institution: <a href="https://frontis.cn/">Frontis</a>
+      department: <a href="https://frontis.cn/">Frontis</a>
       year: 2022/07 - 2022/08
       description:
         - Mentors<span>:</span> Dr. Zheng Wang and Dr. <a href="http://jinfengyi.net/">Jinfeng Yi</a>.
         - Topics<span>:</span> Information Extraction
     - title: Research Intern
-      institution: <a href="https://www.ai.pku.edu.cn/">Institute for AI</a>, Peking University
+      department: <a href="https://www.ai.pku.edu.cn/">Institute for AI</a>, Peking University
       year: 2022/01 - 2022/09
       description:
         - Advisors<span>:</span> Prof. <a href="https://yalidu.github.io/">Yali Du</a> and Prof. <a href="https://www.yangyaodong.com/">Yaodong Yang</a>.
         - Topics<span>:</span> Reinforcement Learning from Human Feedback (RLHF)
         - One paper is accepted by NeurIPS'22 and another paper is under review.
     - title: Research Intern
-      institution: <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>
+      department: <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>
       year: 2023/07 - 2024/08
       description:
         - Advisors<span>:</span> Dr. <a href="https://baichenjia.github.io/">Chenjia Bai</a>.
@@ -52,15 +52,22 @@
         - Second Prize of Academic Scholarship, Shandong University
         - First Prize of Individual Scholarship, Shandong University
     - year: 2021
-      items: 
+      items:
         - <strong style="color:red;">(Top 2%)</strong> National Scholarship
         - <strong style="color:red;">(Top 0.65%)</strong> First Prize in China Undergraduate Mathematical Contest in Modeling (MCM)
+        - Third Prize in China Mathematics Competition
+        - Second Prize in May Day Mathematical Contest in Modeling
         - Merit Student, Shandong University
         - First Prize of Academic Scholarship, Shandong University
         - First Prize of Individual Scholarship, Shandong University
     - year: 2020
-      items: 
+      items:
+        - Third Prize in National English Competition for College Students
         - Second Prize of Academic Scholarship, Shandong University
+
+- title: Skills
+  type: list
+  contents: ["Python", "PyTorch", "HTML/CSS", "JavaScript", "LaTeX"]
 
 - title: Academic Interests
   type: nested_list
