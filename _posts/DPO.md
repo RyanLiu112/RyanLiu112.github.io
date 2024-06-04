@@ -1,25 +1,16 @@
 ---
 layout: distill
-title: a distill-style blog post
-description: an example of a distill-style blog post and main elements
-tags: distill formatting
-giscus_comments: true
-date: 2021-05-22
+title: RLHF (1) - DPO
+description: A blog post for "Direct Preference Optimization: Your Language Model is Secretly a Reward Model"
+tags: RLHF, LLM
+date: 2024-06-04
 featured: true
 
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Runze Liu
+    url: "https://ryanliu112.github.io/"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+      name: Tsinghua University
 
 bibliography: 2018-12-22-distill.bib
 
@@ -30,6 +21,7 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
+  - name: Preliminaries
   - name: Equations
     # if a section has subsections, you can add them as follows:
     # subsections:
@@ -60,6 +52,45 @@ _styles: >
     font-size: 16px;
   }
 ---
+
+## Preliminaries
+
+### SFT
+
+Supervised Fine-Tuning (SFT) 用于在预训练模型上进行微调，使模型在下游任务上表现更好（例如：对话、总结等）。一个经过 SFT 的模型可以表示为 $$\pi^{\text{SFT}}$$。
+
+### 奖励建模
+
+对于一个输入 $$x$$，经过 SFT 的模型可以产生成对的回答 $$(y_1, y_2) \sim \pi^{\text{SFT}}(y \mid x)$$。我们使用 $$y_w$$ 和 $$y_l$$ 分别表示 $$(y_1, y_2)$$ 中更好的回答和更差的回答，则偏好关系可以定义为 $$y_w \succ y_l \mid x$$。假设 ground-truth reward function 为 $$r^*(x, y)$$，按照 RLHF 的传统，使用 Bradley-Terry model 建模偏好，human preference distribution $$p^*$$ 可以表示为
+
+$$
+\begin{equation}
+p^*(y_1 \succ y_2 \mid x) = \frac{\exp\left(r^*(x, y_1)\right)}{\exp\left(r^*(x, y_1)\right) + \exp\left(r^*(x, y_2)\right)}.
+\notag
+\end{equation}
+$$
+
+假设我们有一个偏好数据集 $$\mathcal{D} = \{(x^{(i)}, y_w^{(i)}, y_l^{(i)})\}_{i=1}^N$$，其中 $$y_w^{(i)} \succ y_l^{(i)} \mid x^{(i)}$$，我们可以将 reward learning 建模为一个二分类问题：
+
+$$
+\mathcal{L}_R(r_{\phi}, \mathcal{D}) = -\mathbb{E}_{(x, y_w, y_l)\sim \mathcal{D}}\bigl[\log \sigma(r_{\phi}(x, y_w)- r_{\phi}(x, y_l))\bigr]
+$$
+
+
+
+
+
+### RL Fine-Tuning
+
+使用 learned reward function 进行 fine-tuning，使得模型在下游任务上表现更好。
+
+$$
+\begin{equation}
+    \max_{\pi_{\theta}} \mathbb{E}_{x \sim \mathcal{D}, y \sim \pi_{\theta}(y \mid x)} \bigl[r_{\phi}(x, y)\bigr] - \beta \mathbb{D}_{\textrm{KL}} \bigl[\pi_{\theta}(y \mid x) \mid \mid \pi^{\text{ref}}(y \mid x)\bigr]
+\end{equation}
+$$
+
+
 
 ## Equations
 
