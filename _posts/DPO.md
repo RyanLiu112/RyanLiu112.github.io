@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: RLHF (1) - DPO
-description: A blog post for "Direct Preference Optimization: Your Language Model is Secretly a Reward Model"
+description: A blog post for "Direct Preference Optimization<span>:</span> Your Language Model is Secretly a Reward Model"
 tags: RLHF, LLM
 date: 2024-06-04
 featured: true
@@ -12,7 +12,7 @@ authors:
     affiliations:
       name: Tsinghua University
 
-bibliography: 2018-12-22-distill.bib
+# bibliography: 2018-12-22-distill.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -75,9 +75,6 @@ $$
 $$
 \mathcal{L}_R(r_{\phi}, \mathcal{D}) = -\mathbb{E}_{(x, y_w, y_l)\sim \mathcal{D}}\bigl[\log \sigma(r_{\phi}(x, y_w)- r_{\phi}(x, y_l))\bigr]
 $$
-
-
-
 
 
 ### RL Fine-Tuning
