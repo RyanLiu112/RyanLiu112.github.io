@@ -1,7 +1,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.Eng. in Electronic Information (Artificial Intelligence)
+    - title: M.Eng. in Electronic and Information Engineering (Artificial Intelligence)
       institution: Tsinghua University
       year: 2023/09 - 2026/06
       description:
@@ -36,7 +36,7 @@
         - Advisors<span>:</span> Dr. <a href="https://baichenjia.github.io/">Chenjia Bai</a>.
         - Topics<span>:</span> Reinforcement Learning from Human Feedback (RLHF)
 
-- title: Honors and Awards
+- title: Honours and Awards
   type: time_table
   contents:
     - year: 2023
