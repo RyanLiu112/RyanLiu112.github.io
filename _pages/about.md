@@ -63,7 +63,7 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
   **Runze Liu**, Fengshuo Bai, Yali Du, Yaodong Yang \\
   *Advances in Neural Information Processing Systems (**NeurIPS**), 2022*
 
-<!-- - ``In progress`` -->
+<!-- - ``AAAI 2025`` -->
 - [RAT: Adversarial Attacks on Deep Reinforcement Agents for Targeted Behaviors](https://arxiv.org) \\
   Fengshuo Bai, **Runze Liu**, Yali Du, Ying Wen, Yaodong Yang \\
   *AAAI Conference on Artificial Intelligence (**AAAI**), 2025*
