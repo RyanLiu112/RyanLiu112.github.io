@@ -64,7 +64,7 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
   *Advances in Neural Information Processing Systems (**NeurIPS**), 2022*
 
 <!-- - ``AAAI 2025`` -->
-- [RAT: Adversarial Attacks on Deep Reinforcement Agents for Targeted Behaviors](https://arxiv.org) \\
+- [RAT: Adversarial Attacks on Deep Reinforcement Agents for Targeted Behaviors](https://openreview.net/forum?id=1F66iX6nB5) \\
   Fengshuo Bai, **Runze Liu**, Yali Du, Ying Wen, Yaodong Yang \\
   *AAAI Conference on Artificial Intelligence (**AAAI**), 2025*
 
@@ -98,7 +98,7 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
 
 # 💻 Internships
 
-- Research Intern, Large Language Model Center, <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>, 2024.10 - Present.
+- Research Intern, Large Model Center, <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>, 2024.10 - Present.
 - Research Intern, <a href="https://www.pjlab-ipec.com/">Intelligent Photonics and Electronics Center (IPEC)</a>, <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>, 2023.07 - 2024.09.
 - Research Intern, <a href="https://www.ai.pku.edu.cn/">Institute for AI</a>, <a href="https://www.pku.edu.cn/">Peking University</a>, 2022.01 - 2022.09.
 
