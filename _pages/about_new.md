@@ -4,8 +4,8 @@ title: ""
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /about_new/
+  - /about_new.html
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -27,8 +27,11 @@ I am fortunate to have collaborated with many great researchers who have generou
 
 Please feel free to drop me an e-mail if you are interested in collaborating with me.
 
+<!-- My research interests include but are not limited to: Large Language Models (LLMs), Reinforcement Learning (RL), Reinforcement Learning from Human/AI Feedback (RLHF/RLAIF), and Embodied AI. Please feel free to drop me an e-mail if you are interested in collaborating with me. -->
+
 # 🔥 News
 
+- [2024.12] &nbsp;🎉 One paper accepted by AAAI 2025
 - [2024.05] &nbsp;🎉 One paper accepted by ICML 2024
 - [2024.01] &nbsp;🎉 One paper accepted by ICLR 2024
 - [2023.10] &nbsp;🎉 One paper accepted by OTML workshop at NeurIPS 2023
@@ -50,6 +53,11 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
   Shengjie Sun**\***, **Runze Liu\***, Jiafei Lyu, Jing-Wen Yang, Liangpeng Zhang, Xiu Li \\
   *Preprint, 2024*
 
+<!-- - ``In progress`` -->
+- [Cross-Domain Offline Policy Adaptation with Optimal Transport and Dataset Constraint](https://arxiv.org) \\
+  Jiafei Lyu, Mengbei Yan, Zhongjian Qiao, **Runze Liu**, Xiaoteng Ma, Deheng Ye, Jing-Wen Yang, Zongqing Lu, Xiu Li \\
+  *In progress*
+
 **Conference Papers**
 
 <!-- - ``ICML 2024`` -->
@@ -61,6 +69,11 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
 - [Meta-Reward-Net: Implicitly Differentiable Reward Learning for Preference-based Reinforcement Learning](https://openreview.net/forum?id=OZKBReUF-wX) \\
   **Runze Liu**, Fengshuo Bai, Yali Du, Yaodong Yang \\
   *Advances in Neural Information Processing Systems (**NeurIPS**), 2022*
+
+<!-- - ``In progress`` -->
+- [RAT: Adversarial Attacks on Deep Reinforcement Agents for Targeted Behaviors](https://arxiv.org) \\
+  Fengshuo Bai, **Runze Liu**, Yali Du, Ying Wen, Yaodong Yang \\
+  *AAAI Conference on Artificial Intelligence (**AAAI**), 2025*
 
 <!-- - ``ICLR 2024`` -->
 - [SEABO: A Simple Search-Based Method for Offline Imitation Learning](https://openreview.net/forum?id=MNyOI3C7YB) \\
@@ -74,10 +87,29 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
   **Runze Liu**, Yali Du, Fengshuo Bai, Jiafei Lyu, Xiu Li \\
   *NeurIPS Workshop Optimal Transport and Machine Learning (OTML), 2023*
 
+<!-- <div class='paper-box'>
+<div class='paper-box-image'>
+  <div>
+    <div class="badge">CVPR 2016</div>
+    <img src='images/500x300.png' alt="sym" width="100%">
+  </div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+
+**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div> -->
+
 # 🎓 Education
 
 - <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, 2023.09 - 2026.06 \\
   Master's student in Electronic and Information Engineering (AI)
+  <!-- M.Eng. in Electronic and Information Engineering (Artificial Intelligence) -->
 - <a href="https://www.sdu.edu.cn/">Shandong University</a>, 2019.09 - 2023.06 \\
   B.S. in Statistics (Data Science & AI) *with honors*
 
@@ -95,6 +127,7 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
 - Research Intern, Large Language Model Center, <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>, 2024.10 - Present.
 - Research Intern, <a href="https://www.pjlab-ipec.com/">Intelligent Photonics and Electronics Center (IPEC)</a>, <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>, 2023.07 - 2024.09.
 - Research Intern, <a href="https://www.ai.pku.edu.cn/">Institute for AI</a>, <a href="https://www.pku.edu.cn/">Peking University</a>, 2022.01 - 2022.09.
+- Engineering Intern, <a href="https://www.frontis.cn/">Frontis</a>, 2022.07 - 2022.08.
 
 # 🛠️ Services
 
@@ -102,3 +135,7 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
 - **Workshop Reviewer**: NeurIPS OTML (2023)
 
 <span class='anchor' id='-services'></span>
+
+<!-- # 💬 Invited Talks
+- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
