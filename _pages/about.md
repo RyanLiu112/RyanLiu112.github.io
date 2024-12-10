@@ -29,6 +29,7 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
 
 # 🔥 News
 
+- [2024.12] &nbsp;🎉 One paper accepted by AAAI 2025
 - [2024.05] &nbsp;🎉 One paper accepted by ICML 2024
 - [2024.01] &nbsp;🎉 One paper accepted by ICLR 2024
 - [2023.10] &nbsp;🎉 One paper accepted by OTML workshop at NeurIPS 2023
@@ -61,6 +62,11 @@ Please feel free to drop me an e-mail if you are interested in collaborating wit
 - [Meta-Reward-Net: Implicitly Differentiable Reward Learning for Preference-based Reinforcement Learning](https://openreview.net/forum?id=OZKBReUF-wX) \\
   **Runze Liu**, Fengshuo Bai, Yali Du, Yaodong Yang \\
   *Advances in Neural Information Processing Systems (**NeurIPS**), 2022*
+
+<!-- - ``In progress`` -->
+- [RAT: Adversarial Attacks on Deep Reinforcement Agents for Targeted Behaviors](https://arxiv.org) \\
+  Fengshuo Bai, **Runze Liu**, Yali Du, Ying Wen, Yaodong Yang \\
+  *AAAI Conference on Artificial Intelligence (**AAAI**), 2025*
 
 <!-- - ``ICLR 2024`` -->
 - [SEABO: A Simple Search-Based Method for Offline Imitation Learning](https://openreview.net/forum?id=MNyOI3C7YB) \\
